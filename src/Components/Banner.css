@@ -1,0 +1,104 @@
+.banner {
+  background: 
+    url('https://www.transparenttextures.com/patterns/cubes.png'), 
+    linear-gradient(-45deg, #794444, #2b6e63, hwb(240 20% 69%), #424271);
+  background-size: cover, 400% 400%;
+  background-blend-mode: overlay;
+  animation: gradientMove 15s ease infinite;
+  
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.banner-content h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.banner-content .highlight {
+  background: linear-gradient(to right, #FF6B6B, #00C9A7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-content p {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #CCCCCC;
+}
+
+.banner-btn {
+  background-color: #00C9A7;
+  color: #1E1E2F;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.banner-btn:hover {
+  background-color: #FF6B6B;
+  color: white;
+}
+.features-section {
+  padding: 40px 2px;
+  background-color: #1E1E2F;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #00C9A7;;
+  margin-bottom: 50px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, background 0.3s ease;
+  border-left: 5px solid #00C9A7;
+  text-align: left;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  background: linear-gradient(135deg, #f5faff, #eef7ff);
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

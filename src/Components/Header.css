@@ -1,0 +1,122 @@
+/* Header Styles */
+.header {
+  background-color: #1E1E2F;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Logo and Brand */
+.logo-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  background: linear-gradient(to right, #FF6B6B, #00C9A7);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.brand-name {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.verma {
+  color: white;
+}
+
+.bytes {
+  background: linear-gradient(to right, #FF6B6B, #00C9A7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  gap: 24px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00C9A7;
+}
+
+.contact-link {
+  color: #00C9A7;
+  font-weight: bold;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.signup-btn,
+.login-btn,
+.logout-btn {
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 14px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  text-decoration: none;
+}
+
+/* Sign Up Button */
+.signup-btn {
+  background-color: #e6ba0b;
+  color: white;
+}
+
+.signup-btn:hover {
+  background-color: #e0a709;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #00C9A7;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #00a893;
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #f04f4f;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #d43c3c;
+}
+.header-line {
+  height: 3px;
+  width: 100%;
+  background: linear-gradient(to right, #00C853, #69F0AE); /* modern green gradient */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+}

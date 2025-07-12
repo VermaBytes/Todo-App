@@ -1,0 +1,96 @@
+.vb-footer {
+  background-color: #1E1E2F;
+  color: white;
+  padding: 20px 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Inline Layout */
+.footer-inline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Logo and Brand */
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  background: linear-gradient(to right, #FF6B6B, #00C9A7);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.verma {
+  color: white;
+}
+
+.bytes {
+  background: linear-gradient(to right, #FF6B6B, #00C9A7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Copyright */
+.footer-copy {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+/* Social Icons */
+.footer-socials {
+  display: flex;
+  gap: 12px;
+}
+
+.footer-socials a {
+  background: linear-gradient(135deg, #FF6B6B, #00C9A7);
+  color: white;
+  width: 35px;
+  height: 35px;
+  font-size: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.footer-socials a:hover {
+  transform: scale(1.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-inline {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .footer-copy {
+    order: 3;
+  }
+}
