@@ -120,3 +120,41 @@
   background: linear-gradient(to right, #00C853, #69F0AE); /* modern green gradient */
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
 }
+
+/* Add to existing CSS */
+
+/* Hamburger Icon */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive Nav */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #1E1E2F;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .auth-button {
+    display: none; /* Hide auth buttons on mobile if needed */
+  }
+}
