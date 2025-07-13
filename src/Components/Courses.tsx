@@ -1,5 +1,4 @@
-// src/Components/Courses.jsx
-import React from 'react';
+
 import './Courses.css';
 
 const Courses = () => {

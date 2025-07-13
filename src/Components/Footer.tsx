@@ -1,4 +1,3 @@
-import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
@@ -22,9 +21,11 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="footer-socials">
-          <a href="#" aria-label="Instagram">📸</a>
-          <a href="#" aria-label="YouTube">▶️</a>
-          <a href="#" aria-label="LinkedIn">🔗</a>
+          <a href="https://www.instagram.com/shobhitmanar/profilecard/?igsh=Nzl3dWd3eHl6bmFl" aria-label="Instagram">📸</a>
+          <a href="https://whatsapp.com/channel/0029VaHoCNbBvvscDglD082E" target="_blank" rel="noopener noreferrer">
+               <span>💬</span></a>
+          <a href="https://youtube.com/@eakjhalak?si=OCT9zTVluvKHG5J6" aria-label="YouTube">▶️</a>
+          <a href="https://www.linkedin.com/in/shobhit-verma-549744231?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">🔗</a>
         </div>
       </div>
     </footer>

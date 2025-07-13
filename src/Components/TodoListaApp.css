@@ -1,0 +1,90 @@
+.home-container {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom right, #f6f8ff, #e3f2fd);
+  color: #222;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+/* Hero Banner */
+.hero {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.hero h1 {
+  font-size: 38px;
+  color: #6C63FF;
+}
+
+.hero h1 span {
+  color: #00C9A7;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 12px;
+  color: #555;
+}
+
+/* Quote Section */
+.quote-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #eaf4ff;
+  border-left: 5px solid #6C63FF;
+  border-radius: 8px;
+  font-style: italic;
+  font-size: 18px;
+  color: #444;
+}
+
+.quote-section span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #6C63FF;
+  font-weight: 500;
+}
+
+/* Content Section */
+.content-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.graph-box, .image-box {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+}
+
+.graph-placeholder {
+  background: #f0f0f0;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.image-box img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+}
