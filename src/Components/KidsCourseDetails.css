@@ -1,0 +1,50 @@
+.kids-course-details {
+  padding: 2rem;
+  background: linear-gradient(to right, #fefcea, #f1da36);
+  min-height: 100vh;
+  font-family: 'Comic Neue', cursive;
+  text-align: center;
+}
+
+.kids-course-details h2 {
+  font-size: 2.8rem;
+  color: #2b2d42;
+  margin-bottom: 1rem;
+}
+
+.kids-course-details .desc {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.topic-list {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.topic-list li {
+  background: #fff9c4;
+  border: 2px dashed #fdd835;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.1rem;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+.topic-list li:hover {
+  background-color: #fff176;
+  cursor: pointer;
+}
+
+.course-not-found {
+  padding: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}

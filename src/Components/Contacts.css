@@ -64,7 +64,7 @@
   left: 0;
   width: 8px;
   height: 100%;
- border-left: 6px solid #00C9A7;
+  border-left: 6px solid #00C9A7;
   border-top-left-radius: 16px;
   border-bottom-left-radius: 16px;
 }

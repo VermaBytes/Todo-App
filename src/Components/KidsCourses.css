@@ -1,0 +1,76 @@
+.kids-courses-page {
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #fdfbfb, #ebedee);
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Comic Neue', sans-serif;
+}
+
+.kids-courses-page h2 {
+  font-size: 2.5rem;
+  color: #3d3d3d;
+  margin-bottom: 0.5rem;
+}
+
+.kids-courses-page p {
+  font-size: 1.2rem;
+  color: #6c6c6c;
+  margin-bottom: 2rem;
+}
+
+.kids-courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.kids-course-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  text-align: center;
+}
+
+.kids-course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.kids-course-card img {
+  width: 100%;
+  border-radius: 12px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.kids-course-card h3 {
+  color: #0077b6;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.kids-course-card p {
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.start-btn {
+  display: inline-block;
+  background-color: #ff6f61;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+  background-color: #e63946;
+}
