@@ -7,7 +7,7 @@ const Banner = () => {
       <div className="banner-content">
         <h2>Welcome to <span className="highlight">VermaBytes</span> 🚀</h2>
         <p>Learn new skills, grow your career, and join a community of passionate learners.</p>
-        <a href="#courses" className="banner-btn">Explore Courses</a>
+        <a href="/courses" className="banner-btn">Explore Courses</a>
       </div>
     </section>
     <section className="features-section">

@@ -40,7 +40,6 @@
 
 .bytes {
   background: linear-gradient(to right, #FF6B6B, #00C9A7);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

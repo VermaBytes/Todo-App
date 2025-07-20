@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import './Courses.css';
 
 const Courses = () => {
@@ -6,12 +6,12 @@ const Courses = () => {
     {
       title: 'HTML5 & CSS3',
       desc: 'Master the foundation of web development with semantic HTML and modern CSS.',
-      image: 'https://source.unsplash.com/300x200/?html,css,web',
+      content: 'This course covers HTML tags, CSS selectors, flexbox, grid, responsive design, and real-world projects.',
     },
     {
       title: 'JavaScript Essentials',
       desc: 'Learn JavaScript from scratch with real-world projects and problem-solving.',
-      image: 'https://source.unsplash.com/300x200/?javascript,code',
+      content: 'You will learn variables, functions, arrays, DOM manipulation, ES6, and async programming.',
     },
     {
       title: 'React.js Mastery',
@@ -28,11 +28,8 @@ const Courses = () => {
       desc: 'Design better interfaces using Figma, wireframes, and user testing.',
       image: 'https://source.unsplash.com/300x200/?design,figma',
     },
-    {
-      title: 'Python Programming',
-      desc: 'Beginner to advanced Python with hands-on examples and challenges.',
-      image: 'https://source.unsplash.com/300x200/?python,programming',
-    },
+    
+    // ... other courses
   ];
 
   return (
@@ -43,15 +40,15 @@ const Courses = () => {
       <div className="courses-grid">
         {courseList.map((course, index) => (
           <div className="course-card" key={index}>
-            {/* <img src={course.image} alt={course.title} /> */}
             <h4>{course.title}</h4>
             <p>{course.desc}</p>
-            <button className="enroll-btn">Enroll Now</button>
+            <Link to={`/course/${index}`}>
+              <button className="enroll-btn">Enroll Now</button>
+            </Link>
             <div className="badge">★ 4.8</div>
           </div>
         ))}
       </div>
-
     </div>
   );
 };
