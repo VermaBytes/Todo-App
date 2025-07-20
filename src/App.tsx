@@ -10,7 +10,8 @@ import Contacts from './Components/Contacts';
 import Footer from './Components/Footer';
 import './index.css';
 import KidsCourses from './Components/KidsCourses';
-import KidsCourseDetail from './Components/KidsCoursedetails';
+import KidsCourseDetails from './Components/KidsCouKidsCourseDetails';
+
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path="/course/:id" element={<CourseDetails />} />
         <Route path="/kidsCourses" element={<KidsCourses />} />
-        <Route path="/kidsCourses/:slug" element={<KidsCourseDetail />} />
+        <Route path="/kidsCourses/:slug" element={<KidsCourseDetails />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/contacts" element={<Contacts />} />

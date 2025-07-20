@@ -11,11 +11,17 @@ const courseList = [
   },
   // ... other courses
 ];
-const CourseDetails = () => {
-  const { id } = useParams();
-  const course = courseList[id];
 
-  if (!course) return <p>Comming Soon.....</p>;
+const CourseDetails = () => {
+  const { id } = useParams<{ id: string }>(); // Tell TypeScript id will be a string
+
+  // Convert id to number safely (assuming route param is index like 0, 1, 2)
+  const courseIndex = id ? parseInt(id, 10) : -1;
+
+  // Get the course from list using index
+  const course = courseList[courseIndex];
+
+  if (!course) return <p>Coming Soon.....</p>;
 
   return (
     <div style={{ padding: '30px', fontFamily: 'Poppins' }}>
